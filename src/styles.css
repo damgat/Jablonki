@@ -1,0 +1,89 @@
+h1, h2, h3 {
+    align-self: center;
+}
+.btn {
+    position: relative;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: large;
+    border: none;
+    align-self: center;
+}
+.btn_light {
+    position: relative;
+    color: black;
+    background-color: #7d7d7d;
+    }
+.btn.btn_light:hover {
+color: greenyellow;
+cursor: pointer;
+}
+.btn_dark {
+position: relative;
+color: white;
+background-color: #27292C;
+}
+.btn.btn_dark:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+/* search bar */
+.text-form {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: white;
+    align-items: center;
+    border-radius: 2em;
+    margin: 2em;
+}
+.text-form.btn {
+    margin-left: auto;
+}
+.text-input{
+    display: flex;
+    position: relative;
+    all: unset;
+    font: 16px system-ui;
+    color: black;
+    padding-left: 1em;
+    width: 100%;
+}
+::placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+.btn_search {
+    position: relative;
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+i:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+.bg {
+    background-image: url(./img/Header\ Background@2x.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    color: #fff;
+}
+.bg2 {
+    background-image: url(./img/5_Collection/Header\ Background@2x.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    color: #fff;
+}
+.bg-color {
+    background-color: #27292C;
+    position: relative;
+    color: #fff;
+}
