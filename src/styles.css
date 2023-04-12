@@ -69,14 +69,14 @@ i:hover {
     cursor: pointer;
 }
 .bg {
-    background-image: url(./img/Header\ Background@2x.jpg);
+    background-image: url(./img/1_Header/Header\ Background@4x.jpg);
     background-size: cover;
     position: relative;
     width: 100%;
     color: #fff;
 }
 .bg2 {
-    background-image: url(./img/5_Collection/Header\ Background@2x.jpg);
+    background-image: url(./img/5_Collection/Header\ Background@3x.jpg);
     background-size: cover;
     position: relative;
     width: 100%;
@@ -98,10 +98,10 @@ i:hover {
     min-height: 40vw;
 }
 
-.card:first-of-type ~.card {
+.card:first-of-type ~ .card {
     padding: 4em 0;
 }
-.card_content {
+.card__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,28 +115,35 @@ section {
     padding: 0 4em;
 }
 
-.card_img {
+.card__img {
     position: absolute;
 }
 
 /* header */
-.header_navbar {
+.card__navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 3vw;
 }
 
+.card__item {
+    list-style-type: none;
+    text-decoration: none;
+    text-decoration-color: currentColor;
+    font-family: 'Open Sans', sans-serif;
+    }
+
 /* Logo in header */
 .logo {
-    width: 10em;
+    width: 20em;
 }
 
 /* img in header */
 .img_mix {
     position: relative;
-    height: 50vw;
-    left: 70%;
+    height: 20vh;
+    left: 30%;
 }
 
 /* cydr */
@@ -157,3 +164,156 @@ section {
     left: -2vw;
     top: 55vw;
 }
+
+/* SMALL PASTA in card 2 */
+.card:nth-of-type(2) > section > div > img {
+    position: relative;
+    width: 100%;
+}
+
+/* BIG SPAGETTI */
+.big-spagetti > img {
+    position: relative;
+    width: 50vmin;
+}
+
+/* PIZZA */
+.pizza {
+    position: relative;
+    height: 50vw;
+    top: 15vmin;
+    left: 10vmin;
+}
+/* leaf */
+.bg2 > img:first-of-type {
+    width: 100%;
+    top: -5vmin;
+}
+
+/* pizza */
+.pizza > img:nth-of-type(1) {
+    width: 65%;
+}
+
+/* slice */
+.pizza > img:nth-of-type(2) {
+    width: 30%;
+    top: 40vmin;
+    left: 5vmin;
+}
+
+.card:nth-of-type(7) {
+    padding-top: 15vmin;
+    padding-bottom: 15vmin;
+}
+
+/* BG-COLOR leaf img */
+.bg-color > img {
+    width: 100%;
+    top: -3em;
+}
+
+/* FOOTER */
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 20em
+}
+.icons > img {
+    filter: invert(100%);
+    width: 20%;
+    margin: 20px;
+}
+.card__footer {
+    display: grid;
+    gap: 1em;
+}
+
+@media (max-width: 767px) {
+    .card__navbar {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2em;
+        justify-content: space-between;
+        align-items: flex-start;
+        /* padding: 2em; */
+    }
+}
+@media (min-width: 1200px) {
+    .card__content {
+        flex-direction: row;
+        gap: 5vw;
+    }
+    .card section {
+        display: flex;
+        align-content: space-between;
+        padding: 0 8vw;
+    }
+    
+    /* card 1 */
+    .card:first-of-type {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 0.1fr 1fr;
+    }
+    .card__navbar {
+        grid-row: 1/2;
+        grid-column: 1/3;
+        align-items: center;
+    }
+    .card:first-of-type > section {
+        grid-row: 2/3;
+        align-items: center;
+        padding: 0 4em;
+    }
+    /* SPAGETTi in card 1 */
+    .spagetti {
+        position: relative;
+        height: 60vw;
+        top: 20vw;
+        left: 2em;
+    }
+    .card:first-of-type > section:nth-of-type(2) > img {
+        position: relative;
+    }
+    /* pesto */
+    .card:first-of-type > section:nth-of-type(2) > img:nth-of-type(2) {
+        top: -8vw;
+        left: -15vw;
+    }
+    /* leaf */
+    .card:first-of-type > section:nth-of-type(2) > img:nth-of-type(3) {
+        top: -23vw;
+        left: 5vw;
+    }
+
+    /* card 2 */
+    .card:nth-of-type(2) > section:nth-of-type(2) {
+        display: flex;
+        flex-direction: row;
+        gap: 5vw;
+    }
+    
+    /* PIZZA in card 6 */
+    .pizza {
+        left: 20vmin;
+    }
+    /* pizza */
+    .pizza > img:nth-of-type(1) {
+        width: 65%;
+    }
+
+    /* slice */
+    .pizza > img:nth-of-type(2) {
+        width: 30%;
+        top: 55vmin;
+        left: 5vmin;
+    }
+
+    /* card 8 */
+    .card:nth-of-type(8) {
+        height: 80vmin;
+    }
+
+}
+
