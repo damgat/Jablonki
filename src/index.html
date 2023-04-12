@@ -4,99 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Jabłonki Webpage</title>
+    <title>Jabłonki i Spółka</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="resets.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
 <body>
-<header class="Header bg">
-    <nav class="navbar">
-        <ul>
-            <li class="nav-item"><a href="">START</a></li>
-            <li class="nav-item"><a href="">OFERTA</a></li>
-            <li class="nav-item"><a href="">O NAS</a></li>
-            <li class="nav-item"><a href="">KONTAKT</a></li>
+    <div class="card grid-template-1 bg">
+        <ul class="card__navbar">
+            <li class="card__item"><a href="">START</a></li>
+            <li class="card__item"><a href="">OFERTA</a></li>
+            <li class="card__item"><a href="">O NAS</a></li>
+            <li class="card__item"><a href="">KONTAKT</a></li>
             <form class="text-form" id="form-search">
                 <input class="text-input" type="search" id="querrySer" name="qSer">
-                <button class="btn_search">
+                <button class="btn btn_search">
                     <i class="material-icons md-30">search</i>
                 </button>
             </form>
         </ul>
-    </nav>
     <section>
-        <img class="logo" src="./img/logo.png" alt="logo">
+        <img class="logo" src="./img/1_Header/White logo - no background.png" alt="logo">
         <h1>Jabłonki</h1>
         <h2>Setki lat tradycji</h2>
         <button class="btn btn_light">Czytaj więcej</button>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam nam ad voluptate porro voluptatum aut harum molestiae eos reprehenderit quidem provident, omnis eaque blanditiis rerum neque iusto! Explicabo, laudantium perferendis.</p>
     </section>
-    <section class="products">
-        <img src="mix_img" alt="Sok jabłkowy">
-        <img src="mix_img" alt="Cydr rzemieślniczy">
-        <img src="mix_img" alt="Brandy jabłkowa">
+    <section class="img_mix">
+        <img src="./img/1_Header/cyderek.png" alt="Prasa do jabłek" class="img1_1">
+        <!-- <img src="./img/2_Products/Cydr.png" alt="Cydr rzemieślniczy">
+        <img src="./img/2_Products/blended-applejack.png" alt="Jabłka"> -->
     </section>
-</header>
-<main>
-<section class="offer">
+    </div>  
+    <div class="card">
     <section>
         <div>
-            <h2>Poznaj nasze specjały</h2>
+            <h1>Poznaj nasze specjały</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugiat expedita tempora ea? Soluta, dicta neque, quaerat ratione delectus quidem deserunt consequatur dignissimos sequi blanditiis facilis nobis. Minima, eum non.</p>
         </div>
     </section>
-    <section class="offer_content">
+    <section class="card__content">
         <div>
-            <img src="./img/Sok jednoodmianowy.png" alt="Sok">
+            <img class="card__img" src="./img/2_Products/Sok.png" alt="Sok">
             <h3>Sok jabłkowy</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque rerum tenetur aperiam aliquam ratione cumque, tempora unde veritatis ex voluptatem nobis at impedit non ducimus architecto rem provident dolor earum.</p>
         </div>
         <div>
-            <img src="./img/Cydr.png" alt="Cydr">
+            <img class="card__img" src="./img/2_Products/Cydr.png" alt="Cydr">
             <h3>Cydr rzemieślniczy</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque rerum tenetur aperiam aliquam ratione cumque, tempora unde veritatis ex voluptatem nobis at impedit non ducimus architecto rem provident dolor earum.</p>
         </div>
         <div>
-            <img src="./img/brandy jabłkowa.jpg" alt="Brandy jabłkowe">
+            <img class="card__img" src="./img/2_Products/blended-applejack.png" alt="Brandy jabłkowe">
             <h3>Brandy jabłkowe</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque rerum tenetur aperiam aliquam ratione cumque, tempora unde veritatis ex voluptatem nobis at impedit non ducimus architecto rem provident dolor earum.</p>
         </div>
     </section>
     <section>
-        <button class="btn_dark">Pokaż więcej</button>
+        <button class="btn btn_dark">Pokaż więcej</button>
     </section>
-</section>
-<section>
+</div>
+<div class="card bg-color">
     <section>
-        <h3>Nasza historia</h3>
+    <h3>Nasza historia</h3>
+    <div class="card__content">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis totam voluptate ipsa deserunt accusantium fugiat modi aspernatur tempore vitae dolores veritatis eveniet quaerat, ratione debitis tenetur consectetur nisi ad beatae.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates alias eligendi corporis dolore quaerat earum nostrum dicta illum praesentium nemo. Minus neque, laborum perferendis magnam quae excepturi amet molestiae nobis!</p>
-        <button class="btn_light">Wiecej informacji</button>
+    </div>
+        <button class="btn btn_light">Wiecej informacji</button>
     </section>
-</section>
-<section>
-    <section>
-        <img src="" alt="">
+</div>
+<div class="card card__content">
+    <section class="big-pic">
+        <img class="card__img" src="./img/2_Products/blended-applejack.png" alt="Jabłkowica">
     </section>
     <section>
         <h2>Zniżka do 30% na wszytskie produkty</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, maxime sapiente. Nobis, quisquam quia reprehenderit nulla eius molestiae suscipit aliquid error ad ipsum assumenda ab illo! Quasi odit tempore dignissimos?</p>
-        <button class="btn_dark">Czytaj więcej</button>
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, maxime sapiente. Nobis, quisquam quia reprehenderit nulla eius molestiae suscipit aliquid error ad ipsum assumenda ab illo! Quasi odit tempore dignissimos?</h4>
+        <button class="btn btn_dark">Czytaj więcej</button>
     </section>
-</section>
-<section>
+</div>
+<div class="card card__content">
     <section>
         <h2>Letnia promocja: Zapłać za 2 dostaniesz 1 gratis!</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, maxime sapiente. Nobis, quisquam quia reprehenderit nulla eius molestiae suscipit aliquid error ad ipsum assumenda ab illo! Quasi odit tempore dignissimos?</p>
-        <button class="btn_dark">Czytaj więcej</button>
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, maxime sapiente. Nobis, quisquam quia reprehenderit nulla eius molestiae suscipit aliquid error ad ipsum assumenda ab illo! Quasi odit tempore dignissimos?</h4>
+        <button class="btn btn_dark">Czytaj więcej</button>
     </section>
-    <section>
-        <img src="" alt="">
+    <section  class="big-pic">
+        <img class="card__img" src="./img/2_Products/blended-applejack.png" alt="cydr">
     </section>
-</section>
-<section class="apples">
-    <img src="" alt="">
+</div>
+<section class="card bg2">
+    <img class="card__img" src="./img/5_Collection/" alt="Listki">
     <section>
         <h2>Poznaj nasze stare odmiany jabłek!</h2>
         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure, nulla fuga mollitia quos facere nemo hic ipsa ab sint tenetur enim architecto rerum aliquid. Tenetur vero ipsam dolore obcaecati!</h5>
@@ -142,7 +141,6 @@
             <img src="./img/Group9/WhatsApp.png" alt="whatsapp icon">
         </div>
     </section>
-</main>
 <footer class="content">
         <div>
             <h3>O nas</h3>

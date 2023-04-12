@@ -13,7 +13,7 @@ h1, h2, h3 {
 .btn_light {
     position: relative;
     color: black;
-    background-color: #7d7d7d;
+    background-color: #ffffff;
     }
 .btn.btn_light:hover {
 color: greenyellow;
@@ -86,4 +86,74 @@ i:hover {
     background-color: #27292C;
     position: relative;
     color: #fff;
+}
+
+/* MAIN */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 2em;
+    min-height: 40vw;
+}
+
+.card:first-of-type ~.card {
+    padding: 4em 0;
+}
+.card_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4em;
+}
+
+.card_img {
+    position: absolute;
+}
+
+/* header */
+.header_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3vw;
+}
+
+/* Logo in header */
+.logo {
+    width: 10em;
+}
+
+/* img in header */
+.img_mix {
+    position: relative;
+    height: 50vw;
+    left: 70%;
+}
+
+/* cydr */
+.img_mix > img:first-of-type {
+    height: 50vw;
+}
+
+/* jabłkowica */
+.img_mix > img:first-of-type(2) {
+    height: 35%;
+    left: -2vw;
+    top: 55vw;
+}
+
+/* listki */
+.img_mix > img:first-of-type(3) {
+    height: 35%;
+    left: -2vw;
+    top: 55vw;
 }
