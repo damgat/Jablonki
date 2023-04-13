@@ -23,7 +23,7 @@ h1, h2, h3 {
     background-color: #ffffff;
     }
 .btn.btn_light:hover {
-color: green;
+color: darkgreen;
 cursor: pointer;
 }
 .btn__dark {
@@ -125,7 +125,7 @@ section {
 
 .card__img {
     position: absolute;
-    height: 35%;
+    /* height: 35%; */
 }
 
 /* header */
@@ -152,7 +152,7 @@ section {
 /* img in header */
 .img__mix {
     position: relative;
-    height: 50vw;
+    height: 30vw;
     left: 2em;
 }
 
