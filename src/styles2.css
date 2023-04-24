@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headline {
+    position: relative;
+    background-image: url(./img/1_Header/Header-Background@2x.jpg);
+    height: 100vh;
+    overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+}
