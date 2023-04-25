@@ -13,12 +13,10 @@
     <section>
         <div class="headline">
             <nav>
-                <ul class="navbar">
-                    <li class="nav_item"><a href="">START</a></li>
-                    <li class="nav_item"><a href="#oferta">OFERTA</a></li>
-                    <li class="nav_item"><a href="#onas">O NAS</a></li>
-                    <li class="nav_item"><a href="#kontakt">KONTAKT</a></li>
-                </ul>
+                    <a class="nav_item" href="">START</a>
+                    <a class="nav_item" href="#oferta">OFERTA</a>
+                    <a class="nav_item" href="#onas">O NAS</a>
+                    <a class="nav_item" href="#kontakt">KONTAKT</a>
                 <form class="text-form" id="form-search">
                     <input class="text-input" type="search" id="querrySer" name="qSer">
                     <button class="btn_search">
@@ -27,7 +25,12 @@
                 </form>
             </nav>
             <section>
-                <img class="logo" src="./img/1_Header/logo-biale jabłko.png" alt="logo">
+                <img class="logo"
+                srcset="./img/1_Header/logo-biale-jabłko@2x.png 450w,
+                ./img/1_Header/logo-biale-jabłko@2x.png 900w"
+                sizes="(min-width:280px) 100vw, (min-width: 640px) 50vw"
+                src="./img/1_Header/logo-biale-jabłko@2x.png"
+                alt="logo"/>
                 <h1>Jabłonki i Spółka</h1>
                 <p>Setki lat tradycji</p>
                 <button class="btn_light">Czytaj więcej</button>
