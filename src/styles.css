@@ -17,7 +17,7 @@ h1, h2, h3 {
     border: none;
     align-self: center;
 }
-.btn__light {
+.btn_light {
     position: relative;
     color: black;
     background-color: #ffffff;
@@ -26,12 +26,12 @@ h1, h2, h3 {
 color: darkgreen;
 cursor: pointer;
 }
-.btn__dark {
+.btn_dark {
 position: relative;
 color: white;
 background-color: #27292C;
 }
-.btn.btn__dark:hover {
+.btn.btn_dark:hover {
     color: greenyellow;
     cursor: pointer;
 }
@@ -63,7 +63,7 @@ background-color: #27292C;
     color: #fff;
     opacity: 0.7;
 }
-.btn__search {
+.btn_search {
     position: relative;
     all: unset;
     cursor: pointer;
@@ -109,7 +109,7 @@ i:hover {
 .card:first-of-type ~ .card {
     padding: 4em 0;
 }
-.card__content {
+.card_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,20 +123,20 @@ section {
     padding: 0 4em;
 }
 
-.card__img {
+.card_img {
     position: absolute;
     /* height: 35%; */
 }
 
 /* header */
-.card__navbar {
+.card_navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 3vw;
 }
 
-.card__item {
+.card_item {
     list-style-type: none;
     text-decoration: none;
     text-decoration-color: currentColor;

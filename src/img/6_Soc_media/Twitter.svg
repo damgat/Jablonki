@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" width="42" height="42">
+	<title>Twitter</title>
+	<defs>
+		<image  width="42" height="42" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAMAAADyHTlpAAAAAXNSR0IB2cksfwAAAdFQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////z/gbBgAAAJt0Uk5TAAVDeaXI4vLky6h8RggyjuP/55M4L6evN4Max9IkLu/4Oyv6ORH8HtHfgJQgLbQowIeBrf3mNr/5Ss9ClqYE6ms/3usNQLusC0lZUH3NLLhOF9qMFaMMzNMKCV0q1ppTAyLp8wJE9NBpEzDYqsO6SI/1TVUGYNX+ECUY+65fPb5qXMKcd2JehbA1jaHcGzwmnrdHElGI6NS2ixYluR5EAAACCklEQVR4nI3U/19LURgH8Keiq1Tbsw2xypeKIoWaSDWspZVEioySrRpDJIS++1a+R+TLX+ueO+ec55y7u3l+2b3P5/06955zzw6AUjm5eZs25xvGloLCrUXF4FwlLjeS8nh9DnDbdrTVjtJ0cqcdsnLZ4C5/eolYVq7Kit1OEnHPXir3VTpLs6qkrDYyStx/QNCazBKxlsuD2STioZSsyy4RD1u0/n+on8kGh/DI0WONTeZvoMm6PW5Sr0yb5eWJk2yYcn/LqdZUow2gXS5+EE6La7HsZ86GrEZlB4TlSJ0g7DkuuyLdnlSrB85L2mtGF/qsy4tizS/1/0svQyGZyQDLwoNBxG4ur4hP3gdXCR26ZsXR0us3OB0Q4TAEyAKM3BzVN+ctkcYgTgaF6JhOx0UahwnyAhEdAuSJcAI8hAbrbDQhQ+glFN2376gyKbO7cI/S+z6NTspsUt2sIU0+INlDMkVWU4+orCbLg9PwOK5YDD0RMucp6c88AxhRpNv1nMsXCRo0mp0KfjM7Nx9JyqfPq0fDAust8keULXVxF11+qb5Xi9Wm/5jEq9dv3i6trMZQq3epId7rfXt94I/7mE3GRjn9NJuFNsjZ+jLLIvpdPmc6CrW9+WXYCdYmQasxb3q5FtUle4mvdtg8ngayCq8pZ/LU4DcHyGr9+4/6oYBhbPz89Xv6j5r9BVTYhsWDZ7JOAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

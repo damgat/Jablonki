@@ -8,10 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="./styles2.css">
 </head>
-
 <body>
     <section>
-        <div class="headline">
+        <div class="cont headline">
             <nav>
                     <a class="nav_item" href="">START</a>
                     <a class="nav_item" href="#oferta">OFERTA</a>
@@ -19,22 +18,22 @@
                     <a class="nav_item" href="#kontakt">KONTAKT</a>
                 <form class="text-form" id="form-search">
                     <input class="text-input" type="search" id="querrySer" name="qSer">
-                    <button class="btn_search">
+                    <button class="btn btn_search">
                         <i class="material-icons md-30">search</i>
                     </button>
                 </form>
             </nav>
-            <section>
+            <section class="entry">
                 <img 
                 class="logo"
-                srcset="./img/1_Header/logo-biale-jabłko@1x-svg.svg 450w,
+                srcset="./img/1_Header/logo-biale-jabłko@1x.svg 450w,
                 ./img/1_Header/logo-biale-jabłko@2x.svg 900w"
                 sizes="(min-width:280px) 100vw, (min-width: 640px) 50vw"
                 src="./img/1_Header/logo-biale-jabłko@2x.png"
                 alt="logo"/>
-                <h1>Jabłonki i Spółka</h1>
-                <p>Setki lat tradycji</p>
-                <button class="btn_light">Czytaj więcej</button>
+                <h1>STARY SAD</h1>
+                <h3>Setki lat tradycji</h3>
+                <button class="btn btn_light">Czytaj więcej</button>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam nam ad voluptate porro voluptatum aut
                     harum molestiae eos reprehenderit quidem provident, omnis eaque blanditiis rerum neque iusto!
                     Explicabo, laudantium perferendis.</p>
@@ -42,14 +41,14 @@
             <div>
                 <img 
                 class="img_mix" 
-                srcset="./img/1_Header/but-jab-pra@1x.webp, ./img/1_Header/but-jab-pra@2x.webp" 
+                srcset="./img/1_Header/but-jab-pra@1x.webp 450w, ./img/1_Header/but-jab-pra@2x.webp 900w" 
                 sizes="(min-width:280px) 85vw, (min-width: 640px) 50vw" 
                 src="./img/1_Header/but-jab-pra@1x.png" 
                 alt="Zestaw do wytwarzania cydru"/>
             </div>
         </div>
     </section>
-    <section class="offer">
+    <section class="cont offer">
         <article>
             <h1 id="specialities">Poznaj nasze specjały</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugiat expedita tempora ea? Soluta,
@@ -60,7 +59,7 @@
             <article>
                 <img 
                 class="prod_img" 
-                srcset="./img/2_Products/Sok@1x.webp, ./img/2_Products/Sok@2x.webp" 
+                srcset="./img/2_Products/Sok@1x.webp 450w, ./img/2_Products/Sok@2x.webp 900w" 
                 sizes="(min-width:280px) 85vw, (min-width: 640px) 50vw" 
                 src="./img/2_Products/Sok@2x.png" alt="Sok"/>
                 <h3>Sok jabłkowy</h3>
@@ -70,7 +69,7 @@
             <article>
                 <img 
                 class="prod_img" 
-                srcset="./img/2_Products/Cydr@1x.webp, ./img/2_Products/Cydr@2x.webp" 
+                srcset="./img/2_Products/Cydr@1x.webp 450w, ./img/2_Products/Cydr@2x.webp 900w" 
                 sizes="(min-width:280px) 85vw, (min-width: 640px) 50vw" 
                 src="./img/2_Products/Cydr@2x.png" alt="Cydr"/>
                 <h3>Cydr rzemieślniczy</h3>
@@ -80,9 +79,9 @@
             <article>
                 <img 
                 class="prod_img" 
-                srcset="./img/2_Products/Sok@1x.webp, ./img/2_Products/Sok@2x.webp" 
+                srcset="./img/2_Products/Applejack@1x.webp 450w, ./img/2_Products/Applejack@2x.webp 900w" 
                 sizes="(min-width:280px) 85vw, (min-width: 640px) 50vw" 
-                src="./img/2_Products/Sok@2x.png" alt="Brandy jabłkowe"/>
+                src="./img/2_Products/Applejack@2x.png" alt="Brandy jabłkowe"/>
                 <h3>Brandy jabłkowe</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque rerum tenetur aperiam aliquam ratione
                     cumque, tempora unde veritatis ex voluptatem nobis at impedit non ducimus architecto rem provident
@@ -90,11 +89,10 @@
             </article>
         </section>
         <div>
-            <button class="btn_dark">Pokaż więcej</button>
+            <button class="btn btn_dark">Pokaż więcej</button>
         </div>
     </section>
-    <section class="history">
-        <article>
+    <div class="cont bg-color">
             <h3 id="onas">Nasza historia</h3>
             <div class="content">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis totam voluptate ipsa deserunt
@@ -104,77 +102,85 @@
                     quaerat earum nostrum dicta illum praesentium nemo. Minus neque, laborum perferendis magnam quae
                     excepturi amet molestiae nobis!</p>
             </div>
-            <button class="btn_light">Więcej informacji</button>
-        </article>
-    </section>
+            <button class="btn btn_light">Więcej informacji</button>
+    </div>
     <section class="apple-species">
         <hgroup>
             <h2>Poznaj  odmiany jabłoni używane w naszych produktach!</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, maxime sapiente. Nobis, quisquam quia
                 reprehenderit nulla eius molestiae suscipit aliquid error ad ipsum assumenda ab illo! Quasi odit tempore
                 dignissimos?</p>
-            <button class="btn_dark">Czytaj więcej</button>
+            <button class="btn btn_dark">Czytaj więcej</button>
         </hgroup>
-        <div class="figures">
+        <div class="cont figures">
             <figure class="apple-one">
-                <img class="fig-img" src="./img/4_Apple_species/groch.jpg" alt="Jabłoń Grochówka Wielka">
-                <figcaption>Grochówka. Jest to nasza sztandarowa odmiana, używana zarówno do tanicznych, wytrawnych cydrów, jak i do aromatycznych destylatów.</figcaption>
+                <img 
+                class="fig-img" 
+                srcset="./img/4_Apple_species/groch1x.webp 450w, ./img/4_Apple_species/groch2x.webp900w" 
+                sizes="(min-width:280px) 85vw, (min-width: 640px) 50vw" 
+                src="./img/4_Apple_species/groch2x.png" alt="Jabłoń Grochówka Wielka"/>
+                <figcaption><span>Grochówka.</span> Jest to nasza sztandarowa odmiana, używana zarówno do tanicznych, wytrawnych cydrów, jak i do aromatycznych destylatów.</figcaption>
             </figure>
             <figure class="apple-two">
-                <img class="fig-img" src="./img/4_Apple_species/aporta.png" alt="Jabłoń Aporta">
-                <figcaption>Jest to nasza sztandarowa odmiana, używana zarówno do tanicznych, wytrawnych cydrów, jak i do aromatycznych destylatów.</figcaption>
+                <img 
+                class="fig-img" 
+                srcset="./img/4_Apple_species/aporta1x.webp 450w, ./img/4_Apple_species/aporta2x.webp 900w" 
+                sizes="(min-width:280px) 85vw, (min-width: 640px) 50vw" 
+                src="./img/4_Apple_species/aporta2x.png" alt="Jabłoń Aporta"/>
+                <figcaption><span>Aporta.</span> Jest to nasza sztandarowa odmiana, używana zarówno do tanicznych, wytrawnych cydrów, jak i do aromatycznych destylatów.</figcaption>
             </figure>
             <figure class="apple-three">
-                <img class="fig-img" src="./img/4_Apple_species/graf.jpg" alt="Jabłoń Grafsztynek Prawdziwy">
-                <figcaption>Jest to nasza sztandarowa odmiana, używana zarówno do tanicznych, wytrawnych cydrów, jak i do aromatycznych destylatów.</figcaption>
+                <img 
+                class="fig-img" 
+                srcset="./img/4_Apple_species/graf1x.webp 450w, ./img/4_Apple_species/graf2x.webp 900w" 
+                sizes="(min-width:280px) 85vw, (min-width: 640px) 50vw" 
+                src="./img/4_Apple_species/graf2x.png" alt="Jabłoń Grafsztynek Prawdziwy"/>
+                <figcaption><span>Grafsztynek Prawdziwy.</span> Jest to nasza sztandarowa odmiana, używana zarówno do tanicznych, wytrawnych cydrów, jak i do aromatycznych destylatów.</figcaption>
             </figure>
             <figure class="apple-four">
-                <img class="fig-img" src="./img/4_Apple_species/kantówka_gda.png" alt="Jabłoń Kantówka Gdańska">
-                <figcaption>Jest to nasza sztandarowa odmiana, używana zarówno do tanicznych, wytrawnych cydrów, jak i do aromatycznych destylatów.</figcaption>
+                <img 
+                class="fig-img" 
+                srcset="./img/4_Apple_species/kant1x.webp 450w, ./img/4_Apple_species/kant12x.webp 900w" 
+                sizes="(min-width:280px) 85vw, (min-width: 640px) 50vw" 
+                src="./img/4_Apple_species/kant2x.png" alt="Jabłoń Kantówka Gdańska"/>
+                <figcaption><span>Kantówka Gdańska.</span> Jest to nasza sztandarowa odmiana, używana zarówno do tanicznych, wytrawnych cydrów, jak i do aromatycznych destylatów.</figcaption>
             </figure>
             <figure class="apple-five">
-                <img class="fig-img" src="./img/4_Apple_species/ren_gorz.png" alt="Jabłoń Reneta Gorzowska">
-                <figcaption>Jest to nasza sztandarowa odmiana, używana zarówno do tanicznych, wytrawnych cydrów, jak i do aromatycznych destylatów.</figcaption>
+                <img 
+                class="fig-img" 
+                srcset="./img/4_Apple_species/rengorz1x.webp 450w, ./img/4_Apple_species/rengorz2x.webp 900w" 
+                sizes="(min-width:280px) 85vw, (min-width: 640px) 50vw" 
+                src="./img/4_Apple_species/rengorz2x.png" alt="Jabłoń Reneta Gorzowska"/>
+                <figcaption><span>Reneta Gorzowska.</span> Jest to nasza sztandarowa odmiana, używana zarówno do tanicznych, wytrawnych cydrów, jak i do aromatycznych destylatów.</figcaption>
             </figure>
             <figure class="apple-six">
-                <img class="fig-img" src="./img/4_Apple_species/Zelezniak.png" alt="Jabłoń Żeleźniak">
-                <figcaption>Jest to nasza sztandarowa odmiana, używana zarówno do tanicznych, wytrawnych cydrów, jak i do aromatycznych destylatów.</figcaption>
+                <img 
+                class="fig-img" 
+                srcset="./img/4_Apple_species/Zelez1x.webp 450w, ./img/4_Apple_species/Zelez2x.webp 900w" 
+                sizes="(min-width:280px) 85vw, (min-width: 640px) 50vw" 
+                src="./img/4_Apple_species/Zelez2x.png" alt="Jabłoń Żeleźniak"/>
+                <figcaption><span>Żeleźniak.</span> Jest to nasza sztandarowa odmiana, używana zarówno do tanicznych, wytrawnych cydrów, jak i do aromatycznych destylatów.</figcaption>
             </figure>
         </div>
     </section>
-    <section class="card bg2">
-        <img class="card_img" src="./img/5_Collection/listek.png" alt="Listki">
-        <hgroup>
-            <h2>Poznaj nasze stare odmiany jabłek!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure, nulla fuga mollitia quos facere
-                nemo hic ipsa ab sint tenetur enim architecto rerum aliquid. Tenetur vero ipsam dolore obcaecati!</p>
+    <div class="cont">
+        <h2>Poznaj nasze wartości</h2>
+    </div>
+    <section class="cont">
+        <hgroup class="cont">
+            <h3>Dawne rzemiosło</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet quis, aliquid obcaecati voluptas inventore exercitationem facilis earum deleniti provident labore consectetur natus sint voluptatibus, quidem corporis consequatur vel alias!</p>
         </hgroup>
-        <div class="pizza">
-            <img class="card_img" src="./img/5_Collection/istockphoto-465955318-1024x1024e.png" alt="Kwiat jabłoni">
-            <img class="card_img" src="./img/5_Collection/n1905fruit05.png" alt="Jabłka">
-        </div>
-    </section>
-    <section class="card">
-        <hgroup>
-            <h3>Nasze rzemiosło</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet quis, aliquid obcaecati
-                voluptas inventore exercitationem facilis earum deleniti provident labore consectetur natus sint
-                voluptatibus, quidem corporis consequatur vel alias!</p>
-        </hgroup>
-        <hgroup>
+        <hgroup class="cont">
             <h3>Czerpanie z tradycji</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet quis, aliquid obcaecati
-                voluptas inventore exercitationem facilis earum deleniti provident labore consectetur natus sint
-                voluptatibus, quidem corporis consequatur vel alias!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet quis, aliquid obcaecati voluptas inventore exercitationem facilis earum deleniti provident labore consectetur natus sint voluptatibus, quidem corporis consequatur vel alias!</p>
         </hgroup>
-        <hgroup>
+        <hgroup class="cont">
             <h3>Ochrona starych odmian</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet quis, aliquid obcaecati
-                voluptas inventore exercitationem facilis earum deleniti provident labore consectetur natus sint
-                voluptatibus, quidem corporis consequatur vel alias!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet quis, aliquid obcaecati voluptas inventore exercitationem facilis earum deleniti provident labore consectetur natus sint voluptatibus, quidem corporis consequatur vel alias!</p>
         </hgroup>
     </section>
-    <section class="card bg-color">
+    <section class="cont bg-color">
         <img src="./img/5_Collection/fresh-red-apple-isolated.png" alt="Jabłka">
         <article>
             <hgroup>
@@ -185,11 +191,11 @@
             </hgroup>
             <form class="text-form" id="formSubscribe">
                 <input class="text-input" type="email" name="email" required>
-                <button class="btn_light">Subskrybuj</button>
+                <button class="btn btn_light">Subskrybuj</button>
             </form>
         </article>
     </section>
-    <footer class="footer">
+    <footer class="cont footer">
         <section>
             <hgroup>
                 <h3>Śledź nas w mediach społecznościowych</h3>
@@ -198,13 +204,13 @@
                     aspernatur animi possimus!</p>
             </hgroup>
             <div class="icons">
-                <img src="./img/Group9/Facebook.png" alt="facebook icon">
-                <img src="./img/Group9/Instagram.png" alt="instagram icon">
-                <img src="./img/Group9/Twitter.png" alt="twitter icon">
-                <img src="./img/Group9/WhatsApp.png" alt="whatsapp icon">
+                <img src="./img/6_Soc_media/Facebook.svg" alt="facebook icon">
+                <img src="./img/6_Soc_media/Instagram.svg" alt="instagram icon">
+                <img src="./img/6_Soc_media/Twitter.svg" alt="twitter icon">
+                <img src="./img/6_Soc_media/WhatsApp.svg" alt="whatsapp icon">
             </div>
         </section>
-        <section class="card_content">
+        <section class="cont">
             <div>
                 <h3>O nas</h3>
                 <ul class="card_footer">
@@ -225,14 +231,14 @@
                     <li><a href="">Metoda płatności</a></li>
                 </ul>
             </div>
-            <address>
+            <div>
                 <h3>Inne</h3>
                 <ul class="card_footer">
                     <li id="kontakt"><a href="">Kontakt</a></li>
                     <li><a href="">Pomoc</a></li>
                     <li><a href="">Prywatność</a></li>
                 </ul>
-            </address>
+            </div>
         </section>
     </footer>
 </body>
