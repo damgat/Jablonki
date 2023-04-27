@@ -10,7 +10,7 @@ h1, h2, h3, p {
 }
 h1, h2, h3 {
     align-self: center;
-    padding: 0.5em;
+    /* padding: 0.5em; */
 }
 h1 {
     font-size: 41px;
@@ -241,7 +241,7 @@ span {
 .icons {
     display: flex;
     justify-content: space-between;
-    width: 20em
+    width: 15rem
 }
 .icons > img {
     filter: invert(100%);
@@ -260,4 +260,21 @@ span {
 }
 .material-icons.md-30 { 
     font-size: 30px; 
+}
+
+[alt] {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    padding: 0 4em;
+}
+
+.padd {
+    padding: 0 4em;
 }
