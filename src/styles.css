@@ -10,6 +10,7 @@ h1, h2, h3, p {
 }
 h1, h2, h3 {
     align-self: center;
+    text-align: center;
     /* padding: 0.5em; */
 }
 h1 {
@@ -199,11 +200,31 @@ i:hover {
     padding: 3rem;
 }
 .prod_img {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    /* position: relative;
     height: 95vw;
-    left: 2.5rem;
-    padding: 3rem;
+    left: 3.5rem;
+    padding: 1rem; */
 }
+
+.apples {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 2em;
+    /* height: 50vh;
+    width: ; */
+}
+
+.apples img {
+    padding-bottom: 1em;
+}
+
 .img_mix {
     position: relative;
     height: 105vw;
