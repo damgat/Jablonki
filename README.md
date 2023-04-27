@@ -1,30 +1,28 @@
-# Apple App
+# Jabłonki i Spółka
 
-Old Polish Apple Almanac Web App
+Old Polish Apple Drinks and Spirits Producer Website
 
 ## Table of contents
 
 - [General Information](#general-information)
 - [Technologies](#technologies)
-- [Minimum Viable Product](#minimum-viable-product)
 - [Project Status](#project-status)
 - [Setup](#setup)
 - [Author](#author)
 
 ## General Information
 
-Developed SPA that allows you to choose your favorites from the many old apple varieties grown in Poland. You can choose from categories such as fruit ripening season, disease resistance and much more!
+Business website for a company producing juices and spirits from old varieties of apple trees grown in Poland, styled in accordance with modern paradigms of HTML and CSS.
 
-## Technologies
+## Technologies and assumptions 
 
-- React.js - ^18.2.0
 - HTML5
-- CSS3.js
-- JavaScript (ES6)
-
-## Minimum Viable Product
-
-MVP is indicating fruit ripening season. Next features which can be introduce can concern apple disease resistance or culinary applications of old polish apple crops.
+- CSS3
+- mobile first 
+- semantic HTML 
+- text, alignment and responsive graphics thanks to media queries and srcset
+- website layout: CSS flexbox and grid
+- optimisation of graphics for the web: size-switching of graphics via srcset, WebP images, SVG while maintaining backward compatibility 
 
 ## Project Status
 
@@ -32,15 +30,13 @@ Project is still being worked on.
 
 ## Setup
 
-In the project directory, you can run:
+To run this project, open index.html file from "Jablonki/src/index.html" directory in browser of your choice.
 
-### `npm start`
+You can view an offline HTML file in the browser in several ways:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Drag and drop the file into your browser
+- CTRL + Left Click (on Macs) or Right Click (on Windows) to open the file with a browser
+- Copy the full path of your file and paste the file in your browser bar
 
 ## Author
 
