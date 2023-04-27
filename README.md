@@ -6,7 +6,8 @@ Old Polish Apple Drinks and Spirits Producer Website
 
 - Mobile view
 
-![Screenshot 2023-04-27 at 20-07-48 Jabłonki i Spółka](https://user-images.githubusercontent.com/83064936/234953932-3231fec2-f44f-4d10-80f2-a1e903cdb1c5.png)
+![zrzut 1](https://user-images.githubusercontent.com/83064936/234964528-59b7a3db-2026-484a-871e-8a51d52b337f.png)
+![zrzut 2](https://user-images.githubusercontent.com/83064936/234964552-f2fd1ce0-304a-486b-bbf0-0af738b7d3da.png)
 
 - Screen view
 
