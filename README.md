@@ -11,6 +11,8 @@ Old Polish Apple Drinks and Spirits Producer Website
 
 - Screen view, width from 1024px
 
+![Screenshot 2023-04-28 at 12-23-28 Jabłonki i Spółka](https://user-images.githubusercontent.com/83064936/235123054-6a27415c-9d98-47ae-97fe-b0eb7a299c3e.png)
+
 ## Table of contents
 
 - [General Information](#general-information)
