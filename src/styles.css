@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
+    max-width: 1920px;
 }
 
 h1, h2, h3, p {
@@ -11,7 +12,6 @@ h1, h2, h3, p {
 h1, h2, h3 {
     align-self: center;
     text-align: center;
-    /* padding: 0.5em; */
 }
 h1 {
     font-size: 41px;
@@ -25,55 +25,22 @@ h3 {
 p {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
-    /* padding: 2rem; */
 }
-a{
+
+a {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: unset;
 }
-a:hover {
+li:hover {
     color: greenyellow;
     text-decoration: none;
     cursor: pointer;
 }
 
-@media (min-width: 576px) {
-    h1 {
-        font-size: 58px;
-    }
-    h2 {
-        font-size: 41px;
-    }
-    h3 {
-        font-size: 29px;
-    }
-    h4 {
-        font-size: 25px;
-    }
-    h5 {
-        font-size: 16px;
-    }
-}
 
-@media (min-width: 1024px) {
-    h1 {
-        font-size: 75px;
-    }
-    h2 {
-        font-size: 58px;
-    }
-    h3 {
-        font-size: 41px;
-    }
-    h4 {
-        font-size: 29px;
-    }
-    h5 {
-        font-size: 25px;
-    }
-}
+
 
 .headline {
     background-image: url(./img/1_Header/Header-Background@2x.jpg);
@@ -302,4 +269,71 @@ footer {
 
 .front {
     z-index: 1;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 58px;
+    }
+    h2 {
+        font-size: 41px;
+    }
+    h3 {
+        font-size: 29px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 75px;
+    }
+    h2 {
+        font-size: 58px;
+    }
+    h3 {
+        font-size: 41px;
+    }
+    h4 {
+        font-size: 29px;
+    }
+    h5 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 767px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        column-gap: 2em;
+        justify-content: space-between;
+        align-items: flex-start;
+        white-space: nowrap;
+    }
+    a {
+        padding-top: 2em;
+    }
+    form {
+    align-items: flex-end;
+    }
+    .entry {
+        display: flex;
+        flex-direction: column;
+    }
+    .beg {
+        /* flex-direction: row; */
+    }
+}
+
+@media (min-width: 1200px) {
+    .cont {
+        flex-direction: row;
+        gap: 5vw;
+    }
 }
