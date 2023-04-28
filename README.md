@@ -6,8 +6,10 @@ Old Polish Apple Drinks and Spirits Producer Website
 
 - Mobile view
 
-<kbd>![zrzut 1](https://user-images.githubusercontent.com/83064936/234964528-59b7a3db-2026-484a-871e-8a51d52b337f.png)</kbd>
-<kbd>![zrzut 2](https://user-images.githubusercontent.com/83064936/234964552-f2fd1ce0-304a-486b-bbf0-0af738b7d3da.png)</kbd>
+<kbd><img src="https://user-images.githubusercontent.com/83064936/234964528-59b7a3db-2026-484a-871e-8a51d52b337f.png"/></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/83064936/234964552-f2fd1ce0-304a-486b-bbf0-0af738b7d3da.png" /></kbd>
+<!-- <kbd>![zrzut 1](https://user-images.githubusercontent.com/83064936/234964528-59b7a3db-2026-484a-871e-8a51d52b337f.png)</kbd>
+<kbd>![zrzut 2](https://user-images.githubusercontent.com/83064936/234964552-f2fd1ce0-304a-486b-bbf0-0af738b7d3da.png)</kbd> -->
 
 - Screen view, width from 1024px
 
