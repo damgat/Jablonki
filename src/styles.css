@@ -39,9 +39,6 @@ li:hover {
     cursor: pointer;
 }
 
-
-
-
 .headline {
     background-image: url(./img/1_Header/Header-Background@2x.jpg);
     background-size: cover;
@@ -63,12 +60,12 @@ li:hover {
     padding: 2rem;
 }
 
-div nav ul {
+div nav a {
     list-style-type: none;
     text-decoration: none;
 }
 
-nav {
+.navbar {
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
@@ -93,7 +90,6 @@ nav a {
     align-items: center;
     border-radius: 2em;
     margin: 2em;
-    /* color: #0d0d0d; */
 }
 .text-form.btn {
     margin-left: auto;
@@ -172,20 +168,14 @@ i:hover {
     justify-content: center;
     align-items: center;
     padding: 2em;
-    /* position: relative;
-    height: 95vw;
-    left: 3.5rem;
-    padding: 1rem; */
+
 }
 
 .apples {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     padding: 2em;
-    /* height: 50vh;
-    width: ; */
 }
 
 .apples img {
@@ -220,12 +210,7 @@ span {
     padding-bottom: 2em;
     min-height: 40vw;
 }
-/* section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 4em;
-} */
+
 .icons {
     display: flex;
     justify-content: space-between;
@@ -271,6 +256,7 @@ footer {
     z-index: 1;
 }
 
+/* MEDIA QUERIES */
 @media (min-width: 576px) {
     h1 {
         font-size: 58px;
@@ -319,21 +305,99 @@ footer {
     a {
         padding-top: 2em;
     }
-    form {
-    align-items: flex-end;
-    }
     .entry {
         display: flex;
         flex-direction: column;
     }
-    .beg {
-        /* flex-direction: row; */
+    .text-form {
+        margin-right: 1em;
+        margin-left: auto;
     }
 }
 
 @media (min-width: 1200px) {
     .cont {
-        flex-direction: row;
+        display: grid;
         gap: 5vw;
+    }
+
+    .cont section {
+        display: grid;
+        align-content: space-between;
+        padding: 0 8vw;
+    }
+
+    .logo {
+        width: 15vw;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .img_mix {
+        position: relative;
+        height: 50vw;
+    }
+    .products {
+        display: flex;
+        flex-direction: row;
+    }
+    .figures {
+        display: grid;
+        gap: 10px;
+        grid-template-rows: 450px 450px;
+        grid-template-columns: 400px 400px 400px;
+    }
+
+    .one {
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .two {
+        grid-row: 1;
+        grid-column: 2;
+    }
+    .three {
+        grid-row: 1;
+        grid-column: 3;
+    }
+    .four {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    .five {
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .six {
+        grid-row: 2;
+        grid-column: 3;
+    }
+    .apples{
+        padding-bottom: 2em;
+    }
+
+    .value {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .item-1 {
+        display: grid;
+        gap: 10px;
+        grid-template-rows: 450px 450px;
+        grid-template-columns: 400px 400px;
+    }
+
+    .item-1 {
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .item-2 {
+        grid-row: 1;
+        grid-column: 2;
+    }
+    .item-3 {
+        grid-row: 1;
+        grid-column: 3;
     }
 }
