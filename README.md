@@ -32,7 +32,7 @@ Business website for a company producing juices and spirits from old varieties o
 - CSS3
 - mobile first 
 - semantic HTML 
-- text, alignment and responsive graphics thanks to media queries and srcset
+- text, alignment and responsive graphics thanks to media queries and srcset collection
 - website layout: CSS flexbox and grid
 - optimisation of graphics for the web: size-switching of graphics via srcset, WebP images, SVG while maintaining backward compatibility 
 
