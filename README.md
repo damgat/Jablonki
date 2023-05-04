@@ -6,10 +6,13 @@ Old Polish Apple Drinks and Spirits Producer Website
 
 - Mobile view
 
-![zrzut 1](https://user-images.githubusercontent.com/83064936/234964528-59b7a3db-2026-484a-871e-8a51d52b337f.png)
-![zrzut 2](https://user-images.githubusercontent.com/83064936/234964552-f2fd1ce0-304a-486b-bbf0-0af738b7d3da.png)
+<kbd><img src="https://user-images.githubusercontent.com/83064936/234964528-59b7a3db-2026-484a-871e-8a51d52b337f.png"/></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/83064936/234964552-f2fd1ce0-304a-486b-bbf0-0af738b7d3da.png" /></kbd>
 
 - Screen view, width from 1024px
+
+<kbd><img src="https://user-images.githubusercontent.com/83064936/235123054-6a27415c-9d98-47ae-97fe-b0eb7a299c3e.png" /></kbd>
+
 
 ## Table of contents
 
@@ -29,7 +32,7 @@ Business website for a company producing juices and spirits from old varieties o
 - CSS3
 - mobile first 
 - semantic HTML 
-- text, alignment and responsive graphics thanks to media queries and srcset
+- text, alignment and responsive graphics thanks to media queries and srcset collection
 - website layout: CSS flexbox and grid
 - optimisation of graphics for the web: size-switching of graphics via srcset, WebP images, SVG while maintaining backward compatibility 
 
