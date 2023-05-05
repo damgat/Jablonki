@@ -414,8 +414,6 @@ h1, h2, h3, p {
 }
 h1, h2, h3 {
     align-self: center;
-    text-align: center;
-    /* padding: 0.5em; */
 }
 h1 {
     font-size: 41px;
@@ -431,7 +429,7 @@ p {
     font-family: 'Open Sans', sans-serif;
     /* padding: 2rem; */
 }
-a{
+a {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
