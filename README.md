@@ -33,7 +33,7 @@ Business website for a company producing juices and spirits from old varieties o
 - mobile first 
 - semantic HTML 
 - text, alignment and responsive graphics thanks to media queries and srcset collection
-- website layout: CSS flexbox and grid
+- website layout: CSS flexbox and grid, applied BEM metodology
 - optimisation of graphics for the web: size-switching of graphics via srcset, WebP images, SVG while maintaining backward compatibility 
 
 ## Project Status
