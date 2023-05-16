@@ -5,53 +5,70 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
     z-index: 1;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     align-self: center;
     text-align: center;
     /* padding: 0.5em; */
 }
+
 h1 {
     font-size: 41px;
 }
+
 h2 {
     font-size: 29px;
 }
+
 h3 {
     font-size: 25px;
 }
+
 p {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     /* padding: 2rem; */
 }
-a{
+
+a {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: unset;
 }
+
 a:hover {
     color: greenyellow;
     text-decoration: none;
     cursor: pointer;
 }
 
+
 @media (min-width: 576px) {
     h1 {
         font-size: 58px;
     }
+
     h2 {
         font-size: 41px;
     }
+
     h3 {
         font-size: 29px;
     }
+
     h4 {
         font-size: 25px;
     }
+
     h5 {
         font-size: 16px;
     }
@@ -61,15 +78,19 @@ a:hover {
     h1 {
         font-size: 75px;
     }
+
     h2 {
         font-size: 58px;
     }
+
     h3 {
         font-size: 41px;
     }
+
     h4 {
         font-size: 29px;
     }
+
     h5 {
         font-size: 25px;
     }
@@ -128,9 +149,11 @@ a {
     margin: 2em;
     /* color: #0d0d0d; */
 }
+
 .text-form.btn {
     margin-left: auto;
 }
+
 .text-input {
     display: flex;
     position: relative;
@@ -140,19 +163,23 @@ a {
     padding-left: 1em;
     width: 100%;
 }
+
 ::placeholder {
     color: #fff;
-    opacity: 0.7; 
+    opacity: 0.7;
 }
+
 i:hover {
     color: greenyellow;
     cursor: pointer;
 }
+
 .logo {
     width: 35vw;
     height: auto;
     padding: 2rem;
 }
+
 .btn {
     position: relative;
     height: 50px;
@@ -162,6 +189,7 @@ i:hover {
     border: none;
     align-self: center;
 }
+
 .btn_search {
     position: relative;
     all: unset;
@@ -171,11 +199,13 @@ i:hover {
     margin-top: 3px;
     margin-right: 10px;
 }
+
 .btn_light {
     position: relative;
     color: black;
     background-color: white;
 }
+
 .btn.btn_light:hover {
     color: greenyellow;
     cursor: pointer;
@@ -187,10 +217,12 @@ i:hover {
     color: white;
     background-color: #27292C;
 }
+
 .btn.btn_dark:hover {
     color: greenyellow;
     cursor: pointer;
 }
+
 .offer {
     display: flex;
     flex-direction: column;
@@ -200,6 +232,7 @@ i:hover {
     min-height: 40vw;
     padding: 3rem;
 }
+
 .prod_img {
     display: flex;
     flex-direction: column;
@@ -230,14 +263,17 @@ i:hover {
     position: relative;
     height: 105vw;
 }
+
 span {
     font-weight: 700;
 }
+
 .bg-color {
     background-color: #27292C;
     position: relative;
     color: #fff;
 }
+
 .content {
     display: flex;
     flex-direction: column;
@@ -246,6 +282,7 @@ span {
     padding-bottom: 2em;
     min-height: 40vw;
 }
+
 .cont {
     display: flex;
     flex-direction: column;
@@ -254,6 +291,7 @@ span {
     padding-bottom: 2em;
     min-height: 40vw;
 }
+
 /* section {
     display: flex;
     flex-direction: column;
@@ -265,23 +303,28 @@ span {
     justify-content: space-between;
     width: 15rem
 }
-.icons > img {
+
+.icons>img {
     filter: invert(100%);
     width: 20%;
     margin: 20px;
 }
+
 .card__footer {
     display: grid;
     gap: 1em;
 }
+
 .iconMedia {
     filter: invert(100%)
 }
+
 .material-icons {
     color: #343434;
 }
-.material-icons.md-30 { 
-    font-size: 30px; 
+
+.material-icons.md-30 {
+    font-size: 30px;
 }
 
 [alt] {
