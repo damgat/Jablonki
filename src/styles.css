@@ -51,6 +51,8 @@ a:hover {
     cursor: pointer;
 }
 
+
+
 @media (min-width: 576px) {
     h1 {
         font-size: 58px;
